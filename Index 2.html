@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Methods</title>
+</head>
+<body>
+    <h1>Methods performed on an array</h1>
+    <p id="joined"></p><!--display the result of the joined array-->
+    <p id="popped"></p><!--display the result of the popped array-->
+    <script>
+        //create the array
+        var  bloxfruits = ["Dragon","Blade","Control","Gas","Yeti","Light"]
+        //join the elements using a special character
+        document.getElementById("joined").innerHTML="The joined array is:" +bloxfruits.join("*");
+        //pop the last elements found in the array
+        document.getElementById("popped").innerHTML = "The popped array is:" + bloxfruits.pop();
+    </script>
+</body>
+</html>
